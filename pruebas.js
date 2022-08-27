@@ -59,4 +59,23 @@ let verduricas = ['repollo','cebolla','lechuga','rabano'];
 let mercadito = ['huevo', ...fruticas, ...verduricas];
 
 //metodo anterior
-let mercadoo = ['huevo', 'pera','tomate','sandia','frutilla','granada','repollo','cebolla','lechuga','rabano']
+let mercadoo = ['huevo', 'pera','tomate','sandia','frutilla','granada','repollo','cebolla','lechuga','rabano'];
+
+////////////////////////////////////////////
+// Declaracion LET y CONST
+{
+    let miVArialbleLET = 'variableLET';
+
+    console.log(miVArialbleLET); // "variableLET"
+}
+{
+    var miVariableVAR = 'variableVAR';
+}
+
+console.log(miVArialbleLET); //error not defined
+console.log(miVariableVAR); // "variable VAR"
+
+const datoPrueba = "miguel";
+
+datoPrueba = "patricio"; //error cant assign to a constan variable
+
