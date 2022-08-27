@@ -27,3 +27,14 @@ let oli = "OLANDA";
 let todos = "a todos";
 let fraseJunta = oli + ' ' + todos;
 console.log(fraseJunta);
+
+////////////////////////////////////////
+// Multilinea ecma6
+let frase = `Frase inicial del parrafo
+segunda linea del mismo parrafo
+`;
+
+//metodo anterior
+let otraFrase = "Saludos a todos \n" + "Que pasen un buen dia";
+
+////////////////////////////////////////////////////////
