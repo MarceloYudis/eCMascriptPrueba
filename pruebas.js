@@ -52,3 +52,11 @@ console.log(job);
 console.log( usser.job, usser.age);
 
 ///////////////////////////////////////////
+//Operador de propagacion. Spread Operator ecma6
+let fruticas = ['pera','tomate','sandia','frutilla','granada'];
+let verduricas = ['repollo','cebolla','lechuga','rabano'];
+
+let mercadito = ['huevo', ...fruticas, ...verduricas];
+
+//metodo anterior
+let mercadoo = ['huevo', 'pera','tomate','sandia','frutilla','granada','repollo','cebolla','lechuga','rabano']
