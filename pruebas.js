@@ -37,4 +37,18 @@ segunda linea del mismo parrafo
 //metodo anterior
 let otraFrase = "Saludos a todos \n" + "Que pasen un buen dia";
 
-////////////////////////////////////////////////////////
+//////////////////////////////////////////
+// Desestructuracion ecma6
+let usser = {
+    'gender':'masculine',
+    'job': 'electrician',
+    'age': '26'
+}
+
+let { job } = usser;
+console.log(job);
+
+// metodo anterior
+console.log( usser.job, usser.age);
+
+///////////////////////////////////////////
