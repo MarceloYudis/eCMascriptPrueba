@@ -78,4 +78,40 @@ console.log(miVariableVAR); // "variable VAR"
 const datoPrueba = "miguel";
 
 datoPrueba = "patricio"; //error cant assign to a constan variable
+////////////////////////////////////////////
+//Clases y como se cream en ecma6
+class calculator  {
+    constructor() {
+        this.nombre = 0;
+        this.edad = 0;
 
+    }
+    sum (nombre, edad) {
+        this.nombre = nombre;
+        this.edad = edad;
+        return this.nombre + this.edad;
+    }
+}
+
+let calcular = new calculator();
+calcular("Pedro ", "22");
+
+//////////////////////////////////////////
+//como usar un modulo
+
+import { saludos } from './modulito';
+saludos();
+
+///////////////////////////////////////7/
+//los generators, generadores
+function* adiosInfierno() {
+    if(true) {
+        yield 'ADIOS MUNDO CRUEL!  ';
+    }
+    if(true) {
+        yield 'Nos vemos en el mas allaaa C:<'
+    }
+};
+
+let creandoLaMuerte = adiosInfierno();
+console.log( creandoLaMuerte.next().value );
