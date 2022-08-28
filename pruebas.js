@@ -115,3 +115,5 @@ function* adiosInfierno() {
 
 let creandoLaMuerte = adiosInfierno();
 console.log( creandoLaMuerte.next().value );
+console.log( creandoLaMuerte.next().value );
+console.log( creandoLaMuerte.next().value );
