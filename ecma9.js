@@ -18,4 +18,19 @@ const ndoCualquierObjeto = {
     country: 'CO',
 }
 
-console.log(ndoCualquierObjeto);
+console.log(ndoCualquierObjeto); 
+
+const saludos = () => {
+    return new Promise((resolve, reject) => {
+        (true)
+        ? resolve('Hola a toedos')
+        : reject(new Error('Test Error'))
+    })
+}
+
+saludos()
+    .then(response => console.log(response))
+    .catch(error => console.log(error))
+    .finally(() => console.log('Finalizo'));
+
+
