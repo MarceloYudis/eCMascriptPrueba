@@ -49,3 +49,14 @@ const saludoAsincrono = async () => {
 };
 
 saludoAsincrono();
+
+//async y await correctamente
+const otroSAludo = async() => {
+    try {
+        const saludo = await Saludo();
+        console.log(saludo)
+    } catch (error) {
+        console.log(error);
+    }
+};
+otroSAludo();
