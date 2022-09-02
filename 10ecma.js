@@ -7,6 +7,16 @@ console.log(array.flat(1));
 
 //metodo flat map
 let numeritos = [2, 33, 4, 54, 11, 99];
-console.log( numeritos.flatMap( value = > [ value, value *2]));
+console.log( numeritos.flatMap( value => [ value, value *2]));
 
-letq
+
+//eliinar espacios al inicio de un texto
+let hello = '                       hello world';
+console.log(hello.trimStart());
+//eliminar espacios al final de un text
+
+let bye = ' Goodbye dude             '
+console.log(bye.trimEnd());
+
+///////////////////////////////////
+//optional cost biming
