@@ -14,3 +14,9 @@ const otroNumGigante = BigInt(9007199254740991);
 console.log(numeroGigante);
 
 ///////////////////////////
+//Una promesa que es recibida recien cuando todas las promesas sean aceptadas y/o rechadazadas
+
+const primeraPromesa = new Promise ((resolve,reject) => reject('reject')) ;
+const segundaPromesa = new Promise ((resolve,reject) => resolve('resolve')) ;
+const terceraPromesa = new Promise ((resolve,reject) => reject('reject 3')) ;
+
