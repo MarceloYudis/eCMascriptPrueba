@@ -20,3 +20,28 @@ console.log(bye.trimEnd());
 
 ///////////////////////////////////
 //optional cost biming
+//version anterior
+try {
+
+} catch ( error) {
+    error
+}
+//en ES10
+
+try {
+    
+} catch {
+    error
+}
+////////////////////////////////
+//uso de form entries
+
+let datitos = [['animal', 'vaca'],['nro de ptas',4]];
+
+console.log(Object.fromEntries(datitos));
+
+///////////////////////////////////////
+//Acceder a una descripcion del objeto symbol
+let elSimbolo = 'suSimbolo';
+let simvolo = Symbol(elSimbolo);
+console.log(symbol.description)
